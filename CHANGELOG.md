@@ -1,6 +1,15 @@
 Changelog
 =========
 
+0.2.0
+-----
+**_Development Release / 2023-10-09_**
+
+_This release is about supporting recent php versions
+### Features
+
+ - **Core Features**
+   - PHP 8 support
 0.1.0
 -----
 **_Development Release / 2020-04-28_**

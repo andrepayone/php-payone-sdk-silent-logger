@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Cakasim\Payone\Sdk\Log\SilentLogger;
+namespace Payone\Sdk\Log\SilentLogger;
 
 use Psr\Log\AbstractLogger;
 
