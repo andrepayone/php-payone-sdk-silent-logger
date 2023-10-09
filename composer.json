@@ -27,7 +27,7 @@
         }
     ],
     "support": {
-        "email": "integrations@payone.de",
+        "email": "integrations@payone.com",
         "issues": "https://github.com/andrepayone/php-payone-sdk-silent-logger/issues",
         "source": "https://github.com/andrepayone/php-payone-sdk-silent-logger"
     },
