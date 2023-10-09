@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Cakasim\Payone\Sdk\Tests\Log\SilentLogger;
+namespace Payone\Sdk\Tests\Log\SilentLogger;
 
-use Cakasim\Payone\Sdk\Log\SilentLogger\SilentLogger;
+use Payone\Sdk\Log\SilentLogger\SilentLogger;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
 use ReflectionClass;

@@ -1,5 +1,5 @@
 {
-    "name": "cakasim/payone-sdk-silent-logger",
+    "name": "andrepayone/payone-sdk-silent-logger",
     "description": "A PSR-3 Noop-Logger Implementation for the SDK for PAYONE Payment Integration.",
     "type": "library",
     "keywords": [
@@ -9,7 +9,7 @@
         "logger",
         "psr-3"
     ],
-    "homepage": "https://cakasim.de",
+    "homepage": "https://payone.de",
     "readme": "README.md",
     "license": "MIT",
     "authors": [
@@ -17,6 +17,12 @@
             "name": "Fabian Böttcher",
             "email": "me@cakasim.de",
             "homepage": "https://cakasim.de",
+            "role": "Developer"
+        },
+        {
+            "name": "André Gregor-Herrmann",
+            "email": "andre.gregor-herrmann@payone.com",
+            "homepage": "https://payone.de",
             "role": "Developer"
         }
     ],
@@ -27,17 +33,17 @@
     },
     "minimum-stability": "stable",
     "require": {
-        "php": "^7.1",
+        "php": "^8.1",
         "psr/log": "^1.1"
     },
     "autoload": {
         "psr-4": {
-            "Cakasim\\Payone\\Sdk\\Log\\SilentLogger\\": "src/"
+            "Payone\\Sdk\\Log\\SilentLogger\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Cakasim\\Payone\\Sdk\\Tests\\Log\\SilentLogger\\": "tests/"
+            "Payone\\Sdk\\Tests\\Log\\SilentLogger\\": "tests/"
         }
     },
     "require-dev": {},
